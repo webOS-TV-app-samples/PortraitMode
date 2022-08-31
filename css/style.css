@@ -1,0 +1,54 @@
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #202020;
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: #ffffff;
+}
+
+lg_red {
+  color: #d80546;
+}
+
+.wrap_layout,
+.nowrap_layout {
+  color: black;
+  font: 24px/80px sans-serif;
+  text-align: center;
+  justify-content: center;
+}
+
+.wrap_layout div,
+.nowrap_layout div {
+  width: 500px;
+}
+
+.red {
+  background: red;
+}
+
+.green {
+  background: green;
+}
+
+.blue {
+  background: blue;
+}
+
+.yellow {
+  background: yellow;
+}
+
+.wrap_layout {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nowrap_layout {
+  display: flex;
+  flex-wrap: nowrap;
+}
